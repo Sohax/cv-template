@@ -66,18 +66,12 @@ nav a:hover {
 }
 
 /* section */
-table td {
-    border: 1px solid #555;
-}	
 section {
 	background-color: #ddd;
 }
 
-table {
-	text-decoration: none;
-	padding: 10px 20px;
-	min-height: 700px;
-	width: 100%;
+.section {
+	min-height: 500px;
 }
 /* end of section */
 
