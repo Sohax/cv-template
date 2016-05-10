@@ -15,8 +15,7 @@ header,section,aside,footer {
 }
 
 #page {
-	width: 70%;
-	float: right;
+	width: 80%;
 }
 
 /* header */
@@ -28,6 +27,7 @@ h1 {
 	color: #555;
 	margin: 0;
 	padding: 0;
+	font-size: 30px;
 }
 
 nav {
@@ -64,49 +64,20 @@ nav a:hover {
 	color: #eee;
 	background: #555;
 }
-/* end of header */
-
-/* aside */
-aside {
-	background-color: #ccc;
-	width: 30%;
-	float: left;
-}
-
-form {
-    display: block;
-}
-
-.searching {
-	margin: 15px 0;
-	background-color: #bbb;
-	padding: 5%;
-}
-
-.searching input {
-    width: 75%;
-    display: block;
-    float: left;
-    border: 1px solid #ddd;
-    line-height: 25px;
-    height: 28px;
-}
-
-.searching button {
-    width: 20%;
-    display: inline-block;
-    float: right;
-    height: 28px;
-    line-height: 25px;
-    border: none;
-    background: #222;
-    color: #eee;
-}
-/* end of aside */
 
 /* section */
+table td {
+    border: 1px solid #555;
+}	
 section {
 	background-color: #ddd;
+}
+
+table {
+	text-decoration: none;
+	padding: 10px 20px;
+	min-height: 700px;
+	width: 100%;
 }
 /* end of section */
 
@@ -124,6 +95,7 @@ footer {
 footer .row {
   display: flex;
   align-items: center;
+  color: #555;
 }
 
 footer .col-sm-8 {
