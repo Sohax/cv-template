@@ -3,7 +3,7 @@ body {
     font-family: arial, helvetica, sans-serif;
 }
 
-header, section, aside, footer {
+header, section, footer {
     min-height: 100px;
     display: block;
 }
@@ -58,7 +58,7 @@ section {
 }
 
 .section {
-    min-height: 500px;
+    min-height: 600px;
 }
 
 /* section home */
@@ -66,25 +66,26 @@ section {
     background-image: url('https://mgcreativedesign.files.wordpress.com/2014/11/cropped-cropped-cropped-website-design-background1.png');
     background-position: center top;
     background-size: cover;
-    text-shadow: 2px 2px #bbb;
+    text-shadow: 2px 2px #555;
+
 }
 
 .home h2 {
-    color: #555;
+    color: #eee;
     /*background-color: #555;*/
     display: inline-block;
 }
 
 .home h3 {
     padding-top: 5%;
-    color: #555;
+    color: #fff;
     margin: 0 auto;
     text-align: center;
     font-size: 80px;
 }
 
 .home h4 {
-    color: #555;
+    color: #fff;
     margin: 0 auto;
     text-align: center;
     font-size: 40px;
@@ -153,9 +154,57 @@ section {
     margin-right: 10%;
 }
 
-/* section service */
 /* section skill */
+.skill {
+    text-align: center;
+}
+
+.skill h2 {
+    text-transform: uppercase;
+    color: #bbb;
+    letter-spacing: 5px;
+    /*background-color: #555;*/
+    font-size: 50px;
+    text-shadow: 2px 2px #555;
+}
+
+/* section portfolio */
+.portfolio {
+    text-align: center;
+}
+
+.portfolio h2 {
+    text-transform: uppercase;
+    color: #bbb;
+    letter-spacing: 5px;
+    /*background-color: #555;*/
+    font-size: 50px;
+    text-shadow: 2px 2px #555;
+}
+
 /* section contact */
+.contact {
+    text-align: center;
+}
+
+.contact h2 {
+    text-transform: uppercase;
+    color: #bbb;
+    letter-spacing: 5px;
+    /*background-color: #555;*/
+    font-size: 50px;
+    text-shadow: 2px 2px #555;
+}
+
+.contact h3 {
+    width: 40%;
+    text-transform: uppercase;
+    color: #bbb;
+    letter-spacing: 3px;
+    font-size: 20px;
+    text-shadow: 2px 2px #555;
+    margin-top: 5%;
+}
 
 /* TOP */
 .top {
