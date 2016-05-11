@@ -62,9 +62,16 @@ section {
 }
 
 /* section home */
+.home {
+    background-image: url('https://mgcreativedesign.files.wordpress.com/2014/11/cropped-cropped-cropped-website-design-background1.png');
+    background-position: center top;
+    background-size: cover;
+    text-shadow: 2px 2px #bbb;
+}
+
 .home h2 {
-    color: #bbb;
-    background-color: #555;
+    color: #555;
+    /*background-color: #555;*/
     display: inline-block;
 }
 
