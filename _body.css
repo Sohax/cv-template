@@ -69,15 +69,35 @@ section {
 }
 
 .home h3 {
+    padding-top: 5%;
     color: #555;
-    background-color: #eee;
-    display: inline-block;
     margin: 0 auto;
     text-align: center;
+    font-size: 80px;
 }
 
-.text-center {
+.home h4 {
+    color: #555;
+    margin: 0 auto;
     text-align: center;
+    font-size: 40px;
+}
+
+.social {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.social li {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.social li img {
+    border-radius: 50%;
+    border: 2px solid #555;
 }
 
 /* section about */
@@ -158,26 +178,6 @@ footer {
     background-color: #bbb;
     font-size: 12px;
     padding: 20px 0;
-}
-
-footer .row {
-    display: flex;
-    align-items: center;
-    color: #555;
-}
-
-footer .col-sm-8 {
-    display: flex;
-    justify-content: flex-end;
-}
-
-footer ul {
-    list-style: none;
-}
-
-footer li img {
-    width: 30px;
-    height: 30px;
 }
 
 /* end of footer */
