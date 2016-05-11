@@ -70,12 +70,29 @@ section {
     min-height: 500px;
 }
 
+.section h2 {
+    color: #555;
+}
+
 .clear {
     clear: both;
 }
 
 .top {
     text-align: right;
+}
+
+.top a {
+    text-decoration: none;
+    color: #555;
+    background-color: #bbb;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.top a:hover {
+    color: #bbb;
+    background-color: #555;
 }
 
 /* footer */
