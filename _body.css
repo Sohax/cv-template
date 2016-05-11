@@ -61,6 +61,7 @@ section {
     min-height: 500px;
 }
 
+/* section home */
 .home h2 {
     color: #bbb;
     background-color: #555;
@@ -79,6 +80,7 @@ section {
     text-align: center;
 }
 
+/* section about */
 .about h2 {
     color: #bbb;
     background-color: #555;
@@ -124,9 +126,9 @@ section {
     margin-right: 10%;
 }
 
-.clear {
-    clear: both;
-}
+/* section service */
+/* section skill */
+/* section contact */
 
 /* TOP */
 .top {
@@ -144,6 +146,11 @@ section {
 .top a:hover {
     color: #bbb;
     background-color: #555;
+}
+
+/* clear */
+.clear {
+    clear: both;
 }
 
 /* footer */
