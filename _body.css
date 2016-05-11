@@ -70,8 +70,12 @@ section {
 .home h3 {
     color: #555;
     background-color: #eee;
-    display: inline-flex;
-    margin: 10px auto;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.text-center {
     text-align: center;
 }
 
