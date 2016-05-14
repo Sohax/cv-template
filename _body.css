@@ -22,6 +22,13 @@ body {
     width: 100%;
 }
 
+.header img {
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+    display: flex;
+}
+
 nav {
     margin: 10px auto;
     width: 100%;
@@ -43,12 +50,10 @@ nav a {
     padding: 10px;
     display: block;
     text-align: center;
-    /*background: #ddd;*/
 }
 
 nav a:hover {
     color: #98ff98;
-    /*background: #555;*/
 }
 
 nav ul li {
@@ -56,10 +61,6 @@ nav ul li {
 }
 
 /* section */
-section {
-    /*background-color: #ddd;*/
-}
-
 .section {
     min-height: 600px;
     padding-top: 50px;
@@ -67,28 +68,23 @@ section {
 
 /* section home */
 .home {
-    background-image: url('https://mgcreativedesign.files.wordpress.com/2014/11/cropped-cropped-cropped-website-design-background1.png');
+    background-image: url('http://www.robosoftmedia.com/bangor/wp-content/uploads/2011/12/hi-tech-apple-keyboard-mouse-hd-wallpaper1.jpg');
     background-position: center top;
     background-size: cover;
     text-shadow: 2px 2px #555;
 
 }
 
-/*.home h2 {*/
-    /*color: #eee;*/
-    /*background-color: #555;*/
-    /*display: inline-block;*/
-
-
-.home h3 {
-    padding-top: 5%;
+.home h1 {
+    padding-top: 10%;
     color: #fff;
     margin: 0 auto;
     text-align: center;
     font-size: 80px;
 }
 
-.home h4 {
+.home h2 {
+    padding-top: 10px;
     color: #fff;
     margin: 0 auto;
     text-align: center;
@@ -108,17 +104,24 @@ section {
 }
 
 .social li img {
-    border-radius: 50%;
-    border: 2px solid #555;
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    padding: 2px;
 }
 
+.social img:hover {
+    background-color: #98ff98;
+    border-radius: 50%;
+} 
+
 /* section about */
-.about h2 {
+.about h1 {
     color: #555;
     display: inline-block;
 }
 
-.about h3 {
+.about h2 {
     color: #555;
     background-color: #eee;
     display: inline-block;
@@ -139,26 +142,34 @@ section {
     margin-right: 50px;
 }
 
-.about .text {
-    display: block;
-    padding: 30px auto;
+.about p {
+    /*padding: 30px auto;*/
     text-align: left;
-    width: 40%;
-    float: left;
     margin-left: 10px;
+    font-size: 15px;
 }
 
-.about .text:first-letter {
+.about .left {
+    width: 40%;
+    display: inline-block;
+}
+
+.about p:first-letter {
     font-size: 200%;
+    margin-left: 25px;
 }
 
 .about img {
+    height: 370px;
+    width: 350px;
+    display: flex;
     float: right;
-    margin-right: 10%;
+    margin-right: 100px;
+    border-radius: 15px;
 }
 
 /* section skill */
-.skill h2 {
+.skill h1 {
     text-align: left;
     color: #555;
     letter-spacing: 5px;
@@ -166,32 +177,114 @@ section {
     /*font-size: 50px;*/
 }
 
+.skill1 {
+    display: inline-block;
+    float: left;
+    width: 50%;
+}
+
+.skillproc p {
+    font-size: 80px;
+    margin: 0;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.skillproc sup {
+    font-size: 30px;
+}
+
+.skillcontent {
+    text-align: center;
+    font-size: 15px;
+    margin-left: -20px;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* section portfolio */
-.portfolio h2 {
+.portfolio h1 {
     text-align: left;
     color: #555;
     letter-spacing: 5px;
-    /*background-color: #555;*/
-    /*font-size: 50px;*/
 }
 
 /* section contact */
-.contact h2 {
+.contact h1 {
     text-align: left;
     color: #555;
     letter-spacing: 5px;
-    /*background-color: #555;*/
-    /*font-size: 20px;*/
+}
+
+.contact .left {
+    width: 50%;
+    display: inline-block;
+}
+
+.contact h2 {
+    color: #555;
+    font-size: 20px;
+    text-align: center;
+}
+
+.soc {
+    padding: 0;
+    margin-left: 50px;
+}
+
+.soc li {
+    display: block;
+    margin: 20px auto;
+}
+
+.soc li img {
+    width: 40px;
+    height: 40px;
+}
+
+.soc p {
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 20px;
+    margin: 0;
+    font-size: 15px;
+
+}
+
+.contact .right {
+    width: 50%;
+    display: inline-block;
+    float: right;
 }
 
 .contact h3 {
-    font-weight: bold;
-    color: #bbb;
-    letter-spacing: 3px;
+    color: #555;
     font-size: 20px;
-    margin-top: 5%;
     text-align: center;
-    display: block;
 }
 
 /* TOP */
